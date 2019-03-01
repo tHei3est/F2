@@ -5,7 +5,7 @@ public class MultipleCounting {
 			while (c.getVal() < 10){
 				c.inc();
 				System.out.println(c.getval());
-				// ljljj
+				// ljljjgdgdg
 			}
 		c.reset();
 		}
