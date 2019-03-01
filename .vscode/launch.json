@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MultipleCounting",
+            "request": "launch",
+            "mainClass": "Counter.MultipleCounting",
+            "projectName": "F2_92a03d7e"
+        }
+    ]
+}
