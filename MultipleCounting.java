@@ -4,8 +4,7 @@ public class MultipleCounting {
 		for (int i = 0; i < 5; i++){
 			while (c.getVal() < 10){
 				c.inc();
-				System.out.println(c.getval());
-				// ljljjgdgdg
+				System.out.println(c.getVal());
 			}
 		c.reset();
 		}
