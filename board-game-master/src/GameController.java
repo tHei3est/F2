@@ -48,6 +48,8 @@ public class GameController implements PlayerListener {
 
     rollDice();
     currentPlayer.walk(d1.getFace() + d2.getFace());
+    System.out.println("Dice 1 and Dice 2 of " + currentPlayer + " is " 
+    + d1.getFace() + " and " + d2.getFace() + " in order");
   }
 
   private void changeTurn() {
