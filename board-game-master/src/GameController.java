@@ -66,8 +66,10 @@ public class GameController implements PlayerListener {
   }
 
   @Override
-  public void walkCompleted(Player onwer) {        
-    changeTurn();
+  public void walkCompleted(Player onwer) {  
+    if(d1.getFace() != d2.getFace()){
+      changeTurn();
+    }       
     notifyGamePlayEnabled(true);
   }
 
