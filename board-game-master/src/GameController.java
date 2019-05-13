@@ -77,7 +77,7 @@ public class GameController implements PlayerListener {
   public void hasWon(Player owner) {
     if (winner == null) { // first winner only
       winner = owner;
-      JOptionPane.showMessageDialog(null, "Winner is " + winner, "Winner", JOptionPane.INFORMATION_MESSAGE);
+      JOptionPane.showMessageDialog(null, winner + "is Winner", "Winner", JOptionPane.INFORMATION_MESSAGE);
     }
   }
 
